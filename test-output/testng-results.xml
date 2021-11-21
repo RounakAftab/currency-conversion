@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CurrencyConversion" duration-ms="47553" started-at="2021-11-19T00:52:05 BDT" finished-at="2021-11-19T00:52:52 BDT">
+    <groups>
+    </groups>
+    <test name="AmountBoxVerify" duration-ms="47553" started-at="2021-11-19T00:52:05 BDT" finished-at="2021-11-19T00:52:52 BDT">
+      <class name="com.paysera.base.TestBase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.paysera.base.TestBase@2c039ac6]" name="setUp" is-config="true" duration-ms="23624" started-at="2021-11-19T00:51:41 BDT" finished-at="2021-11-19T00:52:05 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paysera.base.TestBase@2c039ac6]" name="tearDown" is-config="true" duration-ms="643" started-at="2021-11-19T00:52:52 BDT" finished-at="2021-11-19T00:52:53 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paysera.base.TestBase -->
+      <class name="com.paysera.testcases.RepresentingLoss">
+        <test-method status="PASS" signature="seeLossValue()[pri:0, instance:com.paysera.testcases.RepresentingLoss@6b57696f]" name="seeLossValue" duration-ms="17894" started-at="2021-11-19T00:52:34 BDT" finished-at="2021-11-19T00:52:52 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeLossValue -->
+      </class> <!-- com.paysera.testcases.RepresentingLoss -->
+      <class name="com.paysera.testcases.AmountBoxVerify">
+        <test-method status="PASS" signature="buyFieldVerify()[pri:1, instance:com.paysera.testcases.AmountBoxVerify@587d1d39]" name="buyFieldVerify" duration-ms="6163" started-at="2021-11-19T00:52:05 BDT" finished-at="2021-11-19T00:52:11 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyFieldVerify -->
+        <test-method status="PASS" signature="sellFieldVerify()[pri:2, instance:com.paysera.testcases.AmountBoxVerify@587d1d39]" name="sellFieldVerify" duration-ms="6150" started-at="2021-11-19T00:52:11 BDT" finished-at="2021-11-19T00:52:17 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellFieldVerify -->
+      </class> <!-- com.paysera.testcases.AmountBoxVerify -->
+      <class name="com.paysera.testcases.RateUpdated">
+        <test-method status="PASS" signature="changeCountry()[pri:0, instance:com.paysera.testcases.RateUpdated@58c1670b]" name="changeCountry" duration-ms="17327" started-at="2021-11-19T00:52:17 BDT" finished-at="2021-11-19T00:52:34 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCountry -->
+      </class> <!-- com.paysera.testcases.RateUpdated -->
+    </test> <!-- AmountBoxVerify -->
+  </suite> <!-- CurrencyConversion -->
+</testng-results>

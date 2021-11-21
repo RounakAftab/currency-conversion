@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CurrencyConversion]">
+  <test thread-count="5" name="AmountBoxVerify(failed)">
+    <classes>
+      <class name="com.paysera.testcases.RateUpdated">
+        <methods>
+          <include name="changeCountry"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.paysera.testcases.RateUpdated -->
+    </classes>
+  </test> <!-- AmountBoxVerify(failed) -->
+</suite> <!-- Failed suite [CurrencyConversion] -->
